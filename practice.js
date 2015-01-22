@@ -22,7 +22,7 @@ var isTyler = function(name) {
 
 var getName = function() {
   var name = prompt("Enter Name")
-  console.log(name)
+  return (name)
 }
 
 
