@@ -53,7 +53,15 @@ parameters are the variables, while the argument is the expression
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
+Falsy - undefined, false, o, ‘’, null, and NaN
+
+run;
+if(_) {
+  console.log('false is truthy')
+} else {
+  console.log('false is falsy')
+}
+
 
 
 
