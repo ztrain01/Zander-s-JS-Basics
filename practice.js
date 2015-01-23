@@ -43,7 +43,7 @@ var getName = function() {
 
 //What is the difference between arguments and parameters?
 
-parameters are the variables, while the argument is the expression
+parameters are the (names)variables, while the argument is the (values)expression
 
 
 //Next problem
@@ -87,7 +87,15 @@ if(_) {
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
-  //Code Here
+var outerFN = function() {
+
+  return function() {
+    return "Zander";
+  }
+}
+
+var bar = outerFn();
+console.log(bar());
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
